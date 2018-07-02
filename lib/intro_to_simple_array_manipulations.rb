@@ -45,6 +45,6 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, integer)
-  # 
-  array.delete(string)
+  # https://ruby-doc.org/core-2.2.0/Array.html#method-i-delete_at
+  array.delete_at(integer)
 end
