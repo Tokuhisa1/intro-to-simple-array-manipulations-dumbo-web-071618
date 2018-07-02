@@ -28,5 +28,6 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
+  # https://ruby-doc.org/core-2.2.0/Array.html#method-i-insert
   array.insert(string)
 end
