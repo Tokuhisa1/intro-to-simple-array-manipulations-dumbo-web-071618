@@ -31,3 +31,7 @@ def using_insert(array, element)
   # https://ruby-doc.org/core-2.2.0/Array.html#method-i-insert
   array.insert(4, element)
 end
+
+def using_uniq(array)
+  array.uniq
+end
